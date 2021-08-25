@@ -1,0 +1,90 @@
+body {background-color: #F2EAE3}
+
+.navbar {
+    display:inline-block;
+    background-color: #E2E0DE;
+    vertical-align: top;
+    color: #373738;
+    font-size: 20px;
+    width: 100%;
+    padding: 1%;
+}
+
+.logo { 
+    width: 23%;
+    padding: 1%;
+    text-align: left;
+}
+
+nav ul {
+    width: 50%;
+    margin-left: left;
+}
+
+.heroimg {
+    height: 100px;
+    padding: 10px;
+}
+ 
+p{
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #E2E0DE;
+    padding: center;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer li{
+    padding: center;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    font-size: 20px;
+    margin: left;
+    padding: 10px;
+    align-items: center;
+}
+
+.workGrid {
+    display: grid;
+    flex-wrap: wrap;
+}
+
+.item1 {
+    grid-area: myArea;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas: 'Weevo' 
+}
+
+.imageSize {
+    width: 50%;
+}
+
+.selfPhoto {
+    width: 200px;
+}
+
+@media only screen and (max-width: 600){
+   #categoryGrid {
+    flex-direction: column;
+    grid-template-rows: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "My Skills"
+        "My Work"
+        "About Me"
+        "Contact Me"
+        ;
+   }
+}
