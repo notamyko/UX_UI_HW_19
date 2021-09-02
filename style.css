@@ -32,6 +32,10 @@ div.navbar li.navLinks {
     color:black;
 }
 
+.navLinks:hover {
+    background-color: lightblue;
+}
+
 .heroimg {
     height: 100px;
     padding: 40px;
