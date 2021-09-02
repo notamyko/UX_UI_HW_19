@@ -2,7 +2,7 @@ console.log(js/index.js);
 
 $(document).ready(function() {
   $(".navLinks").hover(function() {
-    $(this).css("color", "blueviolet");
+    $(this).css("color", "lightblue");
     $(this).css("font-size", "250px");
   },
   function() {

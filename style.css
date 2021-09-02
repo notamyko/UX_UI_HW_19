@@ -56,8 +56,8 @@ li {
   }
 
 li.active {
-    background: blueviolet;
-    color: white;
+    background: lightblue;
+    color: lightblue;
   }
 
 span {
